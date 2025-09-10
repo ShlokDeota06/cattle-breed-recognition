@@ -5,10 +5,10 @@ const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0)
   const [currentImage, setCurrentImage] = useState(0)
   
-  const backgroundImages = [
-    '/image1.png',
-    '/image2.png'
-  ]
+    const backgroundImages = [
+     './image1.png',
+     './image2.png'
+   ]
   
   const slides = [
     {
@@ -130,3 +130,4 @@ const Hero = () => {
 }
 
 export default Hero
+
