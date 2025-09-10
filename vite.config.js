@@ -1,8 +1,8 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Replace `your-username` with your actual GitHub username
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/pashu/' 
+  base: '/cattle-breed-recognition/'
 })
